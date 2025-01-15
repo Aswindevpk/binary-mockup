@@ -4,6 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/binary-mockup/', // Add this to match your GitHub Pages repository name
   server: {
     host:'0.0.0.0',
     port: 3000,  // or your preferred port
