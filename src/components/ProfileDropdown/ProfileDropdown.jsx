@@ -4,7 +4,7 @@ import { Avatar } from "@components";
 import { api } from "@services/api";
 import { toast } from "sonner";
 import { faUser, faBookmark, faFileText, faChartBar } from "@fortawesome/free-regular-svg-icons";
-import DropdownMenu from './DropdownMenu'; // Import the new DropdownMenu component
+import DropdownMenu from './DropDownMenu'; // Import the new DropdownMenu component
 import { authors } from "../../dummy-data/authors";
 
 const ProfileDropdown = () => {
