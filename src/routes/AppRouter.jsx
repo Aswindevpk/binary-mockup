@@ -45,7 +45,7 @@ import PageNotFound from "@pages/PageNotFound/PageNotFound";
 
 function AppRouter() {
   return (
-    <Router>
+    <Router basename="/binary-mockup">
       <AuthProvider>
         <Navbar />
         <Routes>
