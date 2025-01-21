@@ -1,70 +1,60 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Binary Mockup (Medium Blog App Clone)
 
-## Available Scripts
+Binary Mockup is a showcase version of the Binary project, a Medium clone designed for demonstration purposes. This version includes dummy data to simulate the core functionalities of a blogging platform without requiring a fully functional backend.
 
-In the project directory, you can run:
+## Demo
+https://blog.aswindev.in
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Core Features
 
-### `npm test`
+1. **Home Page Feed**:
+   - Displays a feed of articles based on topics
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Article Creation**:
+   - A rich text editor.
+   - Markdown support for advanced users.
+   - Auto-saving drafts for articles.
 
-### `npm run build`
+3. **Article Reading**:
+   - Clean and distraction-free reader interface.
+   - Responsive design for both desktop and mobile.
+   - Estimated reading time displayed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **User Profiles**:
+   - Customizable profile with a bio, profile picture, and social media links.
+   - List of authored articles and bookmarked posts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Engagement Features
 
-### `npm run eject`
+5. **Reactions**:
+   - Claps or likes to appreciate an article.
+   - Ability to comment on articles.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. **Bookmarks**:
+   - Save articles for later reading.
+   - Access bookmarked articles through the user profile.
+   - leave note on bookmarked articles
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. **Follow System**:
+   - Follow other authors.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. **Share Options**:
+    - Share articles via direct links.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Frontend**: HTML, CSS, JavaScript,
+- **Database**: JSON (dummy data)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
