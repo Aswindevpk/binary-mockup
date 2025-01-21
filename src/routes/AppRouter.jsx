@@ -45,7 +45,7 @@ import PageNotFound from "@pages/PageNotFound/PageNotFound";
 
 function AppRouter() {
   return (
-    <Router basename="">
+    <Router>
       <AuthProvider>
         <Navbar />
         <Routes>
